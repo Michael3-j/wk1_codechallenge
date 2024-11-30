@@ -20,3 +20,4 @@ The function also has an annonimas function in which Math.floor is used to round
 If the calculated demerit points are above 12 then the drivers license is suspended,if the points are below 12 the points will be displayed.
 
 ## Challenge 3: Net Salary Calculator 
+Net Salary = Gross salary – All deductions .
