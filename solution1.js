@@ -1,18 +1,31 @@
 //Challenge 1: Student Grade Generator (Toy Problem)
 
-function studentMarks(marks){
-    let grade;
-    if(marks >79){
-         grade = 'A';
-    }else if(marks =>60 && marks <=79){
-         grade = 'B';
-    }else if(marks =>50 && marks<=59){
-         garde = 'C';
-    }else if(marks =>40 && marks<=49){
-        grade ='D';
-    }else{
-        grade ='E';
-    }
-    return grade;
-}
-console.log(studentMarks(72));
+if (score < 0 || score > 100 || (!score)) {
+  
+       console.log("Invalid input. Please enter a number between 0 and 100.");
+console.log("Invalid input. Please enter a number between 0 and 100.");
+ 
+     } else if (score > 79) {
+ 
+       console.log("Grade: A");
+ 
+     } else if (score >= 60) {
+ 
+       console.log("Grade: B");
+ 
+     } else if (score >= 49) {
+ 
+       console.log("Grade: C");
+ 
+     } else if (score >= 40) {
+ 
+       console.log("Grade: D");
+ 
+     } else {
+ 
+       console.log("Grade: E");
+ 
+     }
+ 
+ }
+ scoreEvaluator(80)
