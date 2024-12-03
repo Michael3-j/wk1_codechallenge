@@ -7,7 +7,7 @@ function radarDevice(speed) { //This function is called radar device.
         console.log("Ok"); //If true it will display the string "ok".
     } else if (speed > speedLimit) {
         // If the speed is greater than the velocitylimit,velocitylimit is being called.
-
+console.log("license is suspended.")
     }
 }  
     radarDevice(80); 
