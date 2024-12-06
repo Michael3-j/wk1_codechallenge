@@ -18,7 +18,14 @@ The first if statement is used to determine if the speedLimmit has been observed
 If the calculated demerit points are above 12 then the drivers license is suspended,if the points are below 12 the points will be displayed.
 
 ## Challenge 3: Net Salary Calculator 
-Net Salary = Gross salary – All deductions .
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
-
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+Net Salary = Gross salary – All deductions
+Basic Salary and Benefits (inputs). Deductions: PAYE (tax), NHIF, and NSSF contributions. How It Works Takes basic salary and benefits as inputs. Calculates: Gross salary = Basic salary + Benefits. PAYE, NHIF, and NSSF deductions. Computes the net salary: Net Salary = Gross Salary − (PAYE + NHIF + NSSF) Net Salary=Gross Salary−(PAYE+NHIF+NSSF)
+How to Run the Programs Prerequisites Install Node.js.
+Steps Save the programs as separate files:
+Grade Calculator: Challenge-1.js Speed Test Program: Challenge-2.js Net Salary Calculator: Challenge-3.js Open a terminal and navigate to the directory containing the files.
+Run the desired program using:
+node fileName.js Replace fileName.js with the program you want to run. For example:
+node gradeCalculator.js Modify the inputs directly in the code to test with different values
+Examples: Run the Grade Calculator: node Challenge-1.js. Run the Speed Test Program: node Challenge-2.js. Run the Net Salary Calculator: node Challenge-3.js.
+Troubleshooting Error: "node: command not found" Ensure Node.js is properly installed and added to your system PATH. No Output Double-check the file and input values.
+Future Improvements Add interactive inputs using readline for dynamic data entry. Create a single program with a menu to select which calculator to use. Export results to a file or display them on a user-friendly web interface.
