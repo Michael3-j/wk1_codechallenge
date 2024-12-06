@@ -1,16 +1,17 @@
 //Challenge 2: Speed Detector (Toy Problem)
-function radarDevice(speed) { //This function is called radar device.
-    const speedLimit = 70; //The legal velocitylimit is 70.
-    const distancePerPoint = 5; // The distance travelled per every point is 5km.
-  
-    if (speed <= speedLimit) {//This a conditional statement. it checks if the speed is <= the velocitylimit
-        console.log("Ok"); //If true it will display the string "ok".
-    } else if (speed > speedLimit) {
-        // If the speed is greater than the velocitylimit,velocitylimit is being called.
-console.log("license is suspended.")
-    }
-}  
-    radarDevice(80); 
+function speedDetector(speed) {
+    const speedLimit = 70; 
+    const demeritPoint = 5; 
 
-radarDevice(210); 
-radarDevice(50);
+    if (speed <= speedLimit) {
+        console.log("Ok");
+    } else {
+        const points = Math.floor((speed - speedLimit) / demeritPoint);
+        console.log(`Points: ${points}`);
+        if (points > 12) {
+            console.log("License suspended");
+        }
+    }
+}
+
+speedDetector(180);
